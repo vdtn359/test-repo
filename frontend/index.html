@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enrolments Report</title>
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Enrolments Report</h1>
+
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search by user (firstname/surname) or course title">
+        </div>
+
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Course</th>
+                    <th>Completion Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
